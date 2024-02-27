@@ -1,6 +1,6 @@
 {
-  "name": "js-akashcry-tokens",
-  "version": "4.0.0",
+  "name": "js-akashcry-token",
+  "version": "5.0.0",
   "author": "Simon Lydell",
   "license": "MIT",
   "description": "A regex that tokenizes JavaScript.",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akashcry/js-akashcry-tokens.git"
+    "url": "git+https://github.com/akashcry/js-akashcry-token.git"
   },
   "scripts": {
     "test": "mocha --ui tdd",
@@ -31,8 +31,34 @@
     "mocha": "5.0.0"
   },
   "bugs": {
-    "url": "https://github.com/akashcry/js-akashcry-tokens.git/issues"
+    "url": "https://github.com/akashcry/js-akashcry-token.git/issues"
   },
-  "homepage": "https://github.com/akashcry/js-akashcry-tokens.git#readme",
-  "main": "index.js"
+  "homepage": "https://github.com/akashcry/js-akashcry-token.git#readme",
+  "main": "index.js",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.2",
+    "@react-spring/web": "^9.7.3",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "chart.js": "^4.3.0",
+    "clsx": "^2.0.0",
+    "firebase": "^10.3.0",
+    "framer-motion": "^10.15.2",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.4",
+    "react-icons": "^4.10.1",
+    "react-loading-skeleton": "^3.1.0",
+    "react-paginate": "^8.2.0",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "5.0.1",
+    "react-tilt": "^1.0.2",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^2.1.4"
+  }
 }
